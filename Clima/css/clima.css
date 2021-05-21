@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#weather{
+    width: 600px;
+    height: 400px;
+    margin: 30px;
+    padding: 20px;
+    background-color:#058DBA ;
+    box-shadow: 15px 21px 34px 4px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 15px 21px 34px 4px rgba(0,0,0,0.69);
+    -moz-box-shadow: 15px 21px 34px 4px rgba(0,0,0,0.69);
+    border-radius: 0px 39px 39px 39px;
+    -webkit-border-radius: 0px 39px 39px 39px;
+    -moz-border-radius: 0px 39px 39px 39px;
+}
+
+p{
+    text-shadow: 3px 3px 7px rgba(55,11,11,0.88);
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    
+    display: inline-block;
+}
+#btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: white;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    background-color: #000000;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #00E2FF 5px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    background: #000000;
+    border: solid #00E2FF 5px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-decoration: none;
+ }
+
+p1{
+    text-shadow: 3px 3px 7px rgba(55,11,11,0.88);
+    font-weight: 400;
+    font-size: 50px;
+}
+
+#eltiempo{
+    margin-top: 20px;
+    text-shadow: 3px 3px 7px;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+
+#ciudad{
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+img{
+    width: 120px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 20px;
+}
